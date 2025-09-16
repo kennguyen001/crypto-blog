@@ -6,43 +6,42 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>👋 Ken Nguyen</h1>
-			<p>
-				I'm <strong>Ken Nguyen</strong>, an onchain data analyst and blockchain commentator. 
-				Here, I dig into crypto data, airdrop farming strategies, and market trends. I'll be sharing insights 
-				with equal parts curiosity, skepticism, and a bit of sarcasm.
-			</p>
+<html lang="en" class="bg-white text-black dark:bg-gray-900 dark:text-gray-100">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="flex-1 w-full max-w-screen-lg mx-auto px-4 prose prose-gray dark:prose-invert">
+      <h1>👋 Ken Nguyen</h1>
+      <p>
+        I'm <strong>Ken Nguyen</strong>, an onchain data analyst and blockchain commentator. 
+        Here, I dig into crypto data, airdrop farming strategies, and market trends. I'll be sharing insights 
+        with equal parts curiosity, skepticism, and a bit of sarcasm.
+      </p>
 
-			<hr />
+      <hr />
 
-			<h2>What You'll Find Here</h2>
-			<ul>
-				<li>Deep dives into onchain and offchain crypto data</li>
-				<li>Airdrop farming strategies and evaluation heuristics</li>
-				<li>Analyses of remittance fees across crypto, stablecoins, and traditional systems</li>
-				<li>Research on token launches, market cycles, and manipulation tactics</li>
-			</ul>
+      <h2>What You'll Find Here</h2>
+      <ul>
+        <li>Deep dives into onchain and offchain crypto data</li>
+        <li>Airdrop farming strategies and evaluation heuristics</li>
+        <li>Analyses of remittance fees across crypto, stablecoins, and traditional systems</li>
+        <li>Research on token launches, market cycles, and manipulation tactics</li>
+      </ul>
 
-			<hr />
+      <hr />
 
-			<h2>📫 Connect</h2>
-			<p>
-				Got questions or thoughts? Reach me at 
-				<a href="mailto:nguyen.ken.v@gmail.com">nguyen.ken.v@gmail.com</a>.
-			</p>
+      <h2>📫 Connect</h2>
+      <p>
+        Got questions or thoughts? Reach me at 
+        <a href="mailto:nguyen.ken.v@gmail.com">nguyen.ken.v@gmail.com</a>.
+      </p>
 
-			<p>
-				Welcome aboard 🚀 Let's explore the weird, noisy, and fascinating world of crypto together.
-			</p>
-		</main>
-		<Footer />
-	</body>
+      <p>
+        Welcome aboard 🚀 Let's explore the weird, noisy, and fascinating world of crypto together.
+      </p>
+    </main>
+    <Footer />
+  </body>
 </html>
-

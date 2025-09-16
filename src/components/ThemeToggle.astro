@@ -1,0 +1,84 @@
+---
+import { Image } from "astro:assets";
+import moonIcon from './src/assets/images/moon-icon.png';
+import sunIcon from './src/assets/images/sun-icon.png';
+---
+
+<button
+  id="theme-toggle"
+  class="ml-4 flex items-center justify-center w-10 h-10 rounded 
+         bg-gray-200 hover:bg-gray-300 text-gray-800 
+         dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-100 
+         transition-colors"
+  aria-label="Toggle dark mode"
+>
+  <!-- Moon (shown in light mode) -->
+  <Image
+    id="theme-toggle-moon" 
+    src={moonIcon}
+    alt="Moon icon" 
+    class="w-5 h-5"
+  />
+
+  <!-- Sun (shown in dark mode) -->
+  <Image
+    id="theme-toggle-sun" 
+    src={sunIcon}
+    alt="Sun icon" 
+    class="w-5 h-5 hidden"
+  />
+</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.querySelector<HTMLButtonElement>('#theme-toggle');
+    const sun = document.querySelector<HTMLImageElement>('#theme-toggle-sun');
+    const moon = document.querySelector<HTMLImageElement>('#theme-toggle-moon');
+
+    if (!btn || !sun || !moon) return;
+
+    function updateIcons() {
+      if (document.documentElement.classList.contains('dark')) {
+        sun!.classList.remove('hidden');
+        moon!.classList.add('hidden');
+      } else {
+        moon!.classList.remove('hidden');
+        sun!.classList.add('hidden');
+      }
+    }
+
+    function setTheme(theme: 'dark' | 'light') {
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+      }
+      updateIcons();
+    }
+
+    btn.addEventListener('click', () => {
+      if (document.documentElement.classList.contains('dark')) {
+        setTheme('light');
+      } else {
+        setTheme('dark');
+      }
+    });
+
+    // Initialize based on stored theme
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme === 'dark') {
+      setTheme('dark');
+    } else if (storedTheme === 'light') {
+      setTheme('light');
+    } else {
+      // fallback: system preference
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setTheme('dark');
+      } else {
+        setTheme('light');
+      }
+    }
+  });
+</script>
