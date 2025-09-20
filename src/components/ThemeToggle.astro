@@ -1,8 +1,6 @@
 ---
-import { Image } from "astro:assets";
-import moonIcon from '../assets/images/moon-icon.png';
-import sunIcon from '../assets/images/sun-icon.png';
 ---
+
 
 <button
   id="theme-toggle"
@@ -13,17 +11,17 @@ import sunIcon from '../assets/images/sun-icon.png';
   aria-label="Toggle dark mode"
 >
   <!-- Moon (shown in light mode) -->
-  <Image
+  <img
     id="theme-toggle-moon" 
-    src={moonIcon}
+    src="/images/moon-icon.png"
     alt="Moon icon" 
     class="w-5 h-5"
   />
 
   <!-- Sun (shown in dark mode) -->
-  <Image
+  <img
     id="theme-toggle-sun" 
-    src={sunIcon}
+    src="/images/sun-icon.png"
     alt="Sun icon" 
     class="w-5 h-5 hidden"
   />
