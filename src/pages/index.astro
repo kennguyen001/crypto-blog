@@ -100,7 +100,7 @@ const posts = (await getCollection('blog')).sort(
 					{
 						posts.map((post) => (
 							<li>
-								<a href={`/blog/${post.id}/`}>
+								<a href={`/${post.id}/`}>
 									{post.data.heroImage && (
 										<Image width={720} height={360} src={post.data.heroImage} alt="" />
 									)}
@@ -109,7 +109,7 @@ const posts = (await getCollection('blog')).sort(
 										<FormattedDate date={post.data.pubDate} />
 									</p>
 									{post.data.description && (
-									<p class="snippet">{post.data.description}</p>
+										<p class="snippet">{post.data.description}</p>
 									)}
 								</a>
 							</li>
