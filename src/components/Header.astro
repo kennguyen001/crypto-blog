@@ -4,20 +4,20 @@ import ThemeToggle from './ThemeToggle.astro';
 ---
 
 <header class="bg-white dark:bg-gray-900 shadow px-4">
-  <nav class="flex items-center justify-between text-white main-nav">
-    <h2 class="m-0 text-base font-bold">
+  <nav class="flex items-center justify-between text-white main-nav max-w-4xl mx-auto">
+    <h2 class="m-0 text-sm sm:text-lg font-bold flex-shrink-0">
       <a href="/" class="title-link no-underline hover:text-gray-200">Ken Nguyen</a>
     </h2>
 
-    <div class="flex items-center gap-4">
-      <HeaderLink href="/" class="dark:text-white">Blog</HeaderLink>
-      <HeaderLink href="/about" class="dark:text-white">About</HeaderLink>
+    <div class="flex items-center gap-2 sm:gap-4 absolute left-1/2 transform -translate-x-1/2">
+      <HeaderLink href="/" class="dark:text-white text-base sm:text-lg">Blog</HeaderLink>
+      <HeaderLink href="/about" class="dark:text-white text-base sm:text-lg">About</HeaderLink>
     </div>
 
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-2 flex-shrink-0">
       <a href="https://github.com/kennguyen001" target="_blank" class="text-white hover:text-gray-200">
         <span class="sr-only">Go to my Github</span>
-        <svg viewBox="0 0 16 16" aria-hidden="true" width="28" height="28" fill="currentColor">
+        <svg viewBox="0 0 16 16" aria-hidden="true" width="24" height="24" class="sm:w-7 sm:h-7" fill="currentColor">
           <path
             d="M8 0C3.58 0 0 3.58 0 8c0 3.54 
                2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 
