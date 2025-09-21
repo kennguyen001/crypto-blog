@@ -1,9 +1,7 @@
 ---
-title: "How I Added Dark Mode to My Astro Blog (and Fought a Few Bugs Along the Way)"
+title: "How I Added Dark Mode to My Astro Blog"
 description: "A story about how I added dark mode to my Astro blog, the unexpected bugs I ran into, and how I fixed them."
 pubDate: 'Sept 17, 2025'
----
-
 ---
 
 One of the first things I wanted on my new Astro blog was a dark theme. I mean, every serious dev blog needs one, right? I thought it’d be a quick add-on, slap on a toggle, flip a few colors, done. Spoiler: it wasn’t that simple. Here’s how it went down.
