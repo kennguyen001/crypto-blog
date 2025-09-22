@@ -86,10 +86,11 @@ I also switched headings and text colors to Tailwind classes. Finally, things lo
 ## Final Thoughts
 
 What I thought would be a 15-minute task ended up being a full mini-project. Along the way I:
-- Broke Tailwind.
-- Fought TypeScript about `null`.
-- Got schooled by Astro’s image imports.
-- And finally, had to wrangle global CSS into something dark-mode friendly.
+
+* Broke Tailwind.
+* Fought TypeScript about `null`.
+* Got schooled by Astro’s image imports.
+* And finally, had to wrangle global CSS into something dark-mode friendly.
 
 But now it works: dark mode toggle, persistent theme, clean text contrast. Honestly, it feels good to click that little moon and watch the blog flip into hacker mode.
 

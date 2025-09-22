@@ -10,10 +10,8 @@
   --gray: 96, 115, 159;
   --gray-light: 229, 233, 240;
   --gray-dark: 34, 41, 57;
-  --box-shadow:
-    0 2px 6px rgba(var(--gray), 0.25),
-    0 8px 24px rgba(var(--gray), 0.33),
-    0 16px 32px rgba(var(--gray), 0.33);
+  --box-shadow: 0 2px 6px rgba(var(--gray), 0.25),
+    0 8px 24px rgba(var(--gray), 0.33), 0 16px 32px rgba(var(--gray), 0.33);
 }
 
 /* Dark theme variables */
@@ -24,9 +22,7 @@
   --gray: 156, 163, 175;
   --gray-light: 55, 65, 81;
   --gray-dark: 229, 231, 235;
-  --box-shadow:
-    0 2px 6px rgba(0, 0, 0, 0.25),
-    0 8px 24px rgba(0, 0, 0, 0.33),
+  --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25), 0 8px 24px rgba(0, 0, 0, 0.33),
     0 16px 32px rgba(0, 0, 0, 0.33);
 }
 
@@ -94,22 +90,35 @@ h6 {
 .dark h6 {
   color: rgb(255, 255, 255);
 }
-h1 { font-size: 2.25em; }  /* ~45px if body is 20px */
-h2 { font-size: 1.875em; } /* ~37px */
-h3 { font-size: 1.5em; }   /* ~30px */
-h4 { font-size: 1.25em; }  /* ~25px */
-h5 { font-size: 1.125em; } /* ~22px */
+h1 {
+  font-size: 2.25em;
+} /* ~45px if body is 20px */
+h2 {
+  font-size: 1.875em;
+} /* ~37px */
+h3 {
+  font-size: 1.5em;
+} /* ~30px */
+h4 {
+  font-size: 1.25em;
+} /* ~25px */
+h5 {
+  font-size: 1.125em;
+} /* ~22px */
 
-strong, b { font-weight: 700; }
+strong,
+b {
+  font-weight: 700;
+}
 
 /* -------------------
    Links
 ------------------- */
 header a {
-	color: linen;
+  color: linen;
 }
 .main-nav a:hover {
-  color: #BCC8F9;
+  color: #bcc8f9;
 }
 a {
   color: var(--accent);
@@ -128,15 +137,34 @@ a {
 /* -------------------
    Content Elements
 ------------------- */
-p { margin-bottom: 1em; }
-.prose p { margin-bottom: 2em; }
+p {
+  margin-bottom: 1em;
+}
+.prose p {
+  margin-bottom: 2em;
+}
 
-textarea, input {
+article ul,
+article ol {
+  margin: 1em 0 1em 1.5em;
+  padding: 0;
+}
+article ul li {
+  list-style-type: disc;
+}
+article ol li {
+  list-style-type: decimal;
+}
+
+textarea,
+input {
   width: 100%;
   font-size: 16px;
 }
 
-table { width: 100%; }
+table {
+  width: 100%;
+}
 
 img {
   max-width: 100%;
@@ -160,7 +188,9 @@ pre {
   background: rgb(var(--gray-light));
   overflow-x: auto;
 }
-pre > code { all: unset; }
+pre > code {
+  all: unset;
+}
 .dark pre {
   background: rgb(31, 41, 55); /* Tailwind gray-800 */
   color: #f3f4f6;
@@ -186,8 +216,12 @@ hr {
    Responsive
 ------------------- */
 @media (max-width: 720px) {
-  body { font-size: 18px; }
-  main { padding: 1em; }
+  body {
+    font-size: 18px;
+  }
+  main {
+    padding: 1em;
+  }
 }
 
 /* -------------------
