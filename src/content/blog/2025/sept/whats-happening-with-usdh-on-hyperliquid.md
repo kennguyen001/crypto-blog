@@ -1,7 +1,7 @@
 ---
 title: "What's Happening with USDH on Hyperliquid"
 description: "A breakdown of Hyperliquid’s USDH race, where Native Markets is outpacing Paxos by prioritizing ecosystem alignment and tokenomics over regulatory strength."
-pubDate: 'Sept 13, 2025'
+pubDate: "Sept 13, 2025"
 ---
 
 So there's this crazy battle going down on Hyperliquid right now, and honestly, it's way more interesting than it sounds. They're basically fighting over who gets to create their first native stablecoin (ticker: USDH), and the underdog is absolutely destroying the "obvious" choice.
@@ -21,7 +21,7 @@ Pretty smart, right?
 So when Hyperliquid opened this up to bidders, everyone expected Paxos to win easily. And honestly? On paper, they make total sense:
 
 - They've done this before (hello, PYUSD)
-- They're regulated up the wazoo 
+- They're regulated up the wazoo
 - They've got the boring institutional credibility that makes lawyers happy
 - Zero chance of weird regulatory drama
 
@@ -29,7 +29,7 @@ If you wanted to play it safe and sleep well at night, Paxos was the obvious pic
 
 ## The Dark Horse: Native Markets
 
-Enter Native Markets: basically the scrappy startup going up against the corporate giant. And guess what? They're absolutely *crushing* it in the validator votes.
+Enter Native Markets: basically the scrappy startup going up against the corporate giant. And guess what? They're absolutely _crushing_ it in the validator votes.
 
 Why? Because they're playing a completely different game:
 
@@ -61,4 +61,4 @@ Right now, it's pretty clear they're choosing themselves.
 
 Whether that's brilliant or reckless... well, we'll find out soon enough. But man, you've gotta respect the conviction.
 
-Native Markets better deliver though, because if they fumble this, it's going to be *ugly*.
+Native Markets better deliver though, because if they fumble this, it's going to be _ugly_.

@@ -1,14 +1,14 @@
 ---
 title: "How I Added Dark Mode to My Astro Blog"
 description: "A story about how I added dark mode to my Astro blog, the unexpected bugs I ran into, and how I fixed them."
-pubDate: 'Sept 17, 2025'
+pubDate: "Sept 17, 2025"
 ---
 
 One of the first things I wanted on my new Astro blog was a dark theme. I mean, every serious dev blog needs one, right? I thought it’d be a quick add-on, slap on a toggle, flip a few colors, done. Spoiler: it wasn’t that simple. Here’s how it went down.
 
 ## Tailwind Setup: The First Roadblock
 
-I started by trying to add Tailwind. Astro makes it easy *in theory*, but my setup wasn’t playing nice. At first I didn’t even have a `tailwind.config.mjs`. Then when I did get Tailwind running, my `@tailwind` directives in `global.css` were throwing unknown rule errors.
+I started by trying to add Tailwind. Astro makes it easy _in theory_, but my setup wasn’t playing nice. At first I didn’t even have a `tailwind.config.mjs`. Then when I did get Tailwind running, my `@tailwind` directives in `global.css` were throwing unknown rule errors.
 
 It turned out I was missing **autoprefixer** and the right PostCSS plugin. A couple of installs later:
 
@@ -29,7 +29,7 @@ That’s when TypeScript decided to remind me that DOM elements can be `null`. M
 'moon' is possibly 'null'
 ```
 
-Really? I could *see* the sun and moon right there.
+Really? I could _see_ the sun and moon right there.
 
 I ended up fixing it by asserting with `!` (non-null assertion operator) and adding some safety checks. Not elegant, but it worked.
 
@@ -63,7 +63,7 @@ That was infuriating.
 
 The problem was that I wasn’t remembering the user’s preference anywhere. So I added `localStorage.theme = 'dark'` or `'light'` in the toggle, and then a tiny script in the `<head>` (`ThemeInit.astro`) that runs before anything renders.
 
-That script checks localStorage and system settings, then slaps on `class="dark"` to `<html>` if needed. Problem solved. Dark mode now *sticks*.
+That script checks localStorage and system settings, then slaps on `class="dark"` to `<html>` if needed. Problem solved. Dark mode now _sticks_.
 
 ## Wrestling With Global Styles
 
@@ -87,10 +87,10 @@ I also switched headings and text colors to Tailwind classes. Finally, things lo
 
 What I thought would be a 15-minute task ended up being a full mini-project. Along the way I:
 
-* Broke Tailwind.
-* Fought TypeScript about `null`.
-* Got schooled by Astro’s image imports.
-* And finally, had to wrangle global CSS into something dark-mode friendly.
+- Broke Tailwind.
+- Fought TypeScript about `null`.
+- Got schooled by Astro’s image imports.
+- And finally, had to wrangle global CSS into something dark-mode friendly.
 
 But now it works: dark mode toggle, persistent theme, clean text contrast. Honestly, it feels good to click that little moon and watch the blog flip into hacker mode.
 
