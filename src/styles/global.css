@@ -130,6 +130,10 @@ a {
 .dark a:hover {
   color: var(--accent-dark);
 }
+.archive-link {
+  text-align: center;
+  margin-top: 2rem;
+}
 .footer-icon {
   color: rgb(var(--gray-light));
 }
