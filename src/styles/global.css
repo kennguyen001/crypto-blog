@@ -170,10 +170,15 @@ table {
   width: 100%;
 }
 
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
 img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
-  border-radius: 8px;
 }
 
 code {
