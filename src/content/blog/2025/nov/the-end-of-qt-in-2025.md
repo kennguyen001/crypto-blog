@@ -17,7 +17,7 @@ And markets, being forward‑looking, don’t wait for QE to start. They rally i
 We'll explore why the Fed’s decision to end QT in **Q4 2025** matters, how QE historically fuels rallies, and why crypto investors should pay attention to the months before QE actually begins.
 
 <div class="img-container">
-  <img src="https://i.ibb.co/mV8dB27j/fed-end-qt.png" alt="Fed Announces End of QT">
+  <img src="https://i.ibb.co/7xSDMbNc/fed-end-qt.jpg" alt="Fed Announces End of QT">
 </div>
 
 ## What QT Is and Why It’s Ending
@@ -42,7 +42,7 @@ Think of QT and QE as opposite pedals in the car of monetary policy.
 Before QT ends, markets immediately start speculating about when the Fed will hit the accelerator again.
 
 <div class="img-container">
-  <img src="https://i.ibb.co/Q3L14gQq/what-is-qe.png" alt="What is QE">
+  <img src="https://i.ibb.co/JWJxb9L8/what-is-qe.jpg" alt="What is QE">
 </div>
 
 ## Case Studies of QE Rallies
@@ -72,7 +72,7 @@ Crypto is uniquely sensitive to liquidity. Here’s why:
 In late 2019, Bitcoin rallied as the Fed shifted toward easing, even before formal QE announcements.
 
 <div class="img-container">
-  <img src="https://i.ibb.co/v4gjqChk/crypto-frontrun-qe.png" alt="Why Crypto Frontrun QE">
+  <img src="https://i.ibb.co/35LNw5VV/crypto-frontrun-qe.jpg" alt="Why Crypto Frontrun QE">
 </div>
 
 ## Timeline of Q4 2025 Into 2026
