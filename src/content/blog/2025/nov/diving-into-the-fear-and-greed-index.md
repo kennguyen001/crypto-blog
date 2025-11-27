@@ -25,7 +25,7 @@ To understand the index, we must first understand the problem it solves. Traditi
 The crypto version, developed primarily by _Alternative.me_, adapts this concept for the blockchain asset class.
 
 <div class="img-container">
-  <img src="https://i.ibb.co/SXjG9Gfc/image.png" alt="Fear and Greed Index">
+  <img src="https://i.ibb.co/Z6Kc5Rwn/fear-and-greed-index.jpg" alt="Fear and Greed Index">
 </div>
 
 The index outputs a single number from **0 to 100**.
@@ -91,7 +91,7 @@ But does this theory hold up against the cold, hard data of the last few cycles?
 ## Historical Analysis (Does it actually work?)
 
 <div class="img-container">
-  <img src="https://i.ibb.co/9mWmK5Yz/image.png" alt="Fear and Greed Index Chart">
+  <img src="https://i.ibb.co/nNcqXPcP/fear-and-greed-chart.jpg" alt="Fear and Greed Index Chart">
 </div>
 
 Let’s travel back through time and layer the Fear and Greed Index over the Bitcoin price chart to see how a sentiment-based trader would have fared.
@@ -148,7 +148,7 @@ This strategy produced a **1,145% ROI** over the tested period, compared to **1,
 While the difference in percentage seems small, the key advantage was **risk management**. The sentiment trader was out of the market during the worst crashes, preserving capital and mental sanity, while the HODLer had to endure 70% drawdowns.
 
 <div class="img-container">
-  <img src="https://i.ibb.co/NdSdYMqW/buy-fear-sell-greed.png" alt="Buy Fear Sell Greed Infographic">
+  <img src="https://i.ibb.co/9kPfz6kZ/buy-fear-sell-greed.jpg" alt="Buy Fear Sell Greed Infographic">
 </div>
 
 ### 2. The DCA (Dollar Cost Average) Adjustment Strategy
@@ -198,7 +198,7 @@ The Crypto Fear and Greed Index is one of the few tools that forces you to act a
 3.  **Combine with Technicals.** Use the index to determine _bias_ (Bullish/Bearish) and use Technical Analysis (Support/Resistance) to find the _entry price_.
 
 <div class="img-container">
-  <img src="https://i.ibb.co/DPxn3ZMs/rules-for-fear-and-greed.png" alt="Buy Fear Sell Greed Infographic">
+  <img src="https://i.ibb.co/hJVCsnzR/rules-for-fear-and-greed.jpg" alt="Rules for Fear and Greed Infographic">
 </div>
 
 The market is an emotional beast. The Fear and Greed Index is the mirror that reveals its mood. If you can learn to read the mirror, you can stop being a victim of the market's mood swings and start profiting from them.
