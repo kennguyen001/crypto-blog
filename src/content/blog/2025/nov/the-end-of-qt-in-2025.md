@@ -2,6 +2,7 @@
 title: "The End of QT in 2025"
 description: "The Federal Reserve’s decision to end Quantitative Tightening in December 2025 signals a pivotal shift, prompting forward-looking markets like crypto to rally in anticipation."
 pubDate: "Nov 20, 2025"
+heroImage: https://i.ibb.co/35LNw5VV/crypto-frontrun-qe.jpg
 ---
 
 ## A Turning Point in Monetary Policy
