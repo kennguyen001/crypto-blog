@@ -2,6 +2,7 @@
 title: "Evaluating DeFi Lending and Borrowing Projects"
 description: "A solid DeFi strategy starts with carefully evaluating a project’s overall security, financial stability, and risk management to reduce the chance of losses."
 pubDate: "Nov 30, 2025"
+heroImage: https://i.ibb.co/GfgWNFg0/evaluating-defi-projects.jpg
 ---
 
 Decentralized finance (DeFi) has fundamentally changed how people access financial services, especially lending and borrowing. Instead of relying on banks, anyone can lend liquidity or borrow assets using smart contracts.
