@@ -115,11 +115,25 @@ b {
    Links
 ------------------- */
 header a {
-  color: linen;
+  color: white;
+}
+.dark header a {
+  color: white;
+}
+header a:hover {
+  color: #e5e7eb; /* gray-200 */
+}
+.dark header a:hover {
+  color: #e5e7eb;
 }
 .main-nav a:hover {
   color: #bcc8f9;
 }
+.dark .main-nav a:hover {
+  color: #bcc8f9;
+}
+
+/* These will apply everywhere except the header */
 a {
   color: var(--accent);
   text-decoration: none;
@@ -135,7 +149,10 @@ a {
   margin-top: 2rem;
 }
 .footer-icon {
-  color: rgb(var(--gray-light));
+  color: white;
+}
+.dark .footer-icon {
+  color: white;
 }
 
 /* -------------------
