@@ -2,7 +2,7 @@
 title: "Crypto and the Money Supply"
 description: "The crypto market ultimately mirror global liquidity cycles, rising and falling with central bank money supply."
 pubDate: "Nov 11, 2025"
-heroImage: https://i.ibb.co/GZGkLMX/money-supply-and-crypto.jpg
+heroImage: https://i.ibb.co/GQqTQXYR/crypto-and-money-supply.jpg
 ---
 
 For all the narratives surrounding crypto, like decentralization, innovation, revolution, the uncomfortable truth is that digital assets are, at their core, reflections of global liquidity.
