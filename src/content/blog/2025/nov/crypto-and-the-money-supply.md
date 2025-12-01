@@ -2,7 +2,7 @@
 title: "Crypto and the Money Supply"
 description: "The crypto market ultimately mirror global liquidity cycles, rising and falling with central bank money supply."
 pubDate: "Nov 11, 2025"
-heroImage: https://i.ibb.co/GQqTQXYR/crypto-and-money-supply.jpg
+heroImage: https://i.ibb.co/d0QrBzMN/crypto-and-money-supply.jpg
 ---
 
 For all the narratives surrounding crypto, like decentralization, innovation, revolution, the uncomfortable truth is that digital assets are, at their core, reflections of global liquidity.
@@ -16,6 +16,10 @@ To understand where crypto might go next, one must look less at whitepapers and 
 ## The Liquidity Engine That Drives Everything
 
 Let’s start with the basics: in a world driven by fiat currency and credit expansion, **liquidity is the lifeblood of risk assets.** When central banks inject liquidity through QE, expanding their balance sheets by purchasing government or corporate bonds, that new money doesn’t just sit idly in the system. It flows outward, seeking returns.
+
+<div class="img-container">
+  <img src="https://i.ibb.co/wrS4W6wc/liquidity.jpg" alt="What is liquidity">
+</div>
 
 In times of easy money, speculative assets thrive. Venture capital booms. Tech stocks soar. And crypto, as perhaps the highest-beta asset class in existence, goes parabolic.
 
@@ -31,6 +35,10 @@ As long as QT persists, there simply isn’t enough marginal liquidity to chase 
 
 When the system is prioritizing safety and yield, the risk curve compresses, and crypto sits at the very end of that curve.
 
+<div class="img-container">
+  <img src="https://i.ibb.co/B5LdWx3C/quantitative-tightening.jpg" alt="What is quantitative tightening">
+</div>
+
 This doesn’t mean crypto is dead. It means **the macro backdrop doesn’t support expansion yet.** Until the money printer reverses course, or liquidity injections resume in some form, the crypto market will remain a reflection of contraction.
 
 ## Bitcoin Is Graduating From “Crypto”
@@ -42,6 +50,10 @@ For years, Bitcoin was lumped together with every altcoin under the “crypto”
 But the landscape has changed. The approval of Bitcoin ETFs in the U.S., the entrance of institutional investors, and the embrace of **Bitcoin as a macro asset have fundamentally altered its identity.**
 
 Bitcoin is no longer just “crypto.” It’s becoming part of the legitimate global financial system, a hard, digital asset that institutions can hold alongside gold, equities, and bonds. It has survived multiple cycles, regulatory crackdowns, and narrative shifts. It’s integrated into traditional custody solutions, trading desks, and portfolio models.
+
+<div class="img-container">
+  <img src="https://i.ibb.co/jPF6X5Mf/bitcoin-detaching.jpg" alt="Bitcoin is detaching from crypto">
+</div>
 
 Ethereum and the broader altcoin ecosystem, meanwhile, remain deeply tied to speculative flows and venture-style risk. Their valuations are still primarily a function of liquidity, not adoption or cash flow. That distinction matters. **Bitcoin is increasingly macro**; crypto is still micro.
 
