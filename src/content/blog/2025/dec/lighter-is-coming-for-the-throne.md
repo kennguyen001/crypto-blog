@@ -11,7 +11,7 @@ It printed generational wealth for users who simply traded on a high-performance
 
 But it’s December 2025, and the winds are changing.
 
-Enter **Lighter**. If HYPE was the defining airdrop of 2024, Lighter is shaping up to be the heavyweight of 2025. With a **$1.5 billion valuation**, a war chest of **$68 million** from tier-1 VCs, and daily volumes that have recently begun to flip Hyperliquid, Lighter isn’t just another competitor, it’s coming for the top spot.
+Enter **Lighter**. If HYPE was the defining airdrop of 2024, Lighter is shaping up to be the heavyweight of 2025. With a $1.5 billion valuation, a war chest of **$68 million** from tier-1 VCs, and daily volumes that have recently begun to flip Hyperliquid, Lighter isn’t just another competitor, it’s coming for the top spot.
 
 <div class="img-container">
   <img src="https://i.ibb.co/tM4MJNPc/2-lighter-raise.jpg" alt="Lighter raises $68M">
@@ -21,7 +21,7 @@ In this deep dive, we’ll tear apart the Lighter protocol, explore the tech sta
 
 ---
 
-## “Verifiable” is the New “Trustless”
+## Verifiable is the New Trustless
 
 Most DEXs fall into two categories: AMMs (slow, inefficient for perps) and Off-chain Order Books (fast, but opaque). Hyperliquid changed the model with its own L1 to handle onchain order-book throughput.
 
@@ -29,9 +29,9 @@ Lighter takes a different path: it is built as a **ZK-Rollup** specifically for 
 
 ### 1. ZK-CLOB Architecture
 
-Lighter uses a **Central Limit Order Book (CLOB)**, the gold standard for traders. But unlike previous CLOBs, it uses a custom ZK system known as the **Order Book Tree**.
+Lighter uses a Central Limit Order Book (CLOB), the gold standard for traders. But unlike previous CLOBs, it uses a custom ZK system known as the **Order Book Tree**.
 
-Every transaction — matches, liquidations, funding updates — is proven using **Zero-Knowledge proofs**.
+Every transaction, matches, liquidations, funding updates, is proven using **Zero-Knowledge proofs**.
 
 Hyperliquid relies on validator consensus.
 
@@ -41,7 +41,7 @@ This enables **Verifiable Matching**, meaning users can verify that no front-run
 
 ### 2. Universal Cross Margin
 
-This feature went live in late 2025. Lighter allows assets on **Ethereum Layer 1** to be used as collateral _without bridging them_.
+This feature went live in late 2025. Lighter allows assets on Ethereum Layer 1 to be used as collateral _without bridging them_.
 
 Holding stETH or Aave positions on Ethereum while simultaneously using their value for margin on L2 becomes possible through ZK proofs that lock the L1 state.
 
@@ -51,16 +51,16 @@ This level of capital efficiency is something a standalone L1 like Hyperliquid c
 
 ## Hyperliquid vs. Lighter
 
-| Feature      | Hyperliquid (HYPE)          | Lighter (Points/TGE)                    |
-| ------------ | --------------------------- | --------------------------------------- |
-| Architecture | Custom Layer 1 (HyperEVM)   | **ZK-Rollup on Ethereum**               |
-| Consensus    | PoS (Validators)            | **ZK-Proofs**                           |
-| Trading Fees | Low (Maker rebates)         | **Zero Fees** (Beta/Promo)              |
-| Throughput   | ~200k TPS                   | **~200k+ Ops/Sec**                      |
-| Ecosystem    | Large, multi-product        | **Focused (Perps, Spot added Dec '25)** |
-| TVL          | ~$4.3B                      | **~$1.2B**                              |
-| Daily Volume | ~$10B                       | **~$12B (Surging)**                     |
-| Vibe         | “By Builders, For Builders” | “Institutional Grade, Retail Access”    |
+| Feature      | Hyperliquid (HYPE)          | Lighter (Points/TGE)                 |
+| ------------ | --------------------------- | ------------------------------------ |
+| Architecture | Custom Layer 1 (HyperEVM)   | ZK-Rollup on Ethereum                |
+| Consensus    | PoS (Validators)            | ZK-Proofs                            |
+| Trading Fees | Low (Maker rebates)         | Zero Fees (Beta/Promo)               |
+| Throughput   | ~200k TPS                   | ~200k+ Ops/Sec                       |
+| Ecosystem    | Large, multi-product        | Focused (Perps, Spot added Dec '25)  |
+| TVL          | ~$4.3B                      | ~$1.2B                               |
+| Daily Volume | ~$10B                       | ~$12B (Surging)                      |
+| Vibe         | “By Builders, For Builders” | “Institutional Grade, Retail Access” |
 
 ### The Volume Flip
 
