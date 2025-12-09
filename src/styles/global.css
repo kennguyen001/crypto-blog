@@ -241,6 +241,56 @@ hr {
 }
 
 /* -------------------
+   Tables
+------------------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+}
+
+thead {
+  border-bottom: 2px solid rgb(var(--gray-dark));
+}
+
+.dark thead {
+  border-bottom: 2px solid rgb(var(--gray));
+}
+
+th {
+  padding: 0.75em 1em;
+  text-align: left;
+  font-weight: 700;
+  color: rgb(var(--black));
+}
+
+.dark th {
+  color: rgb(255, 255, 255);
+}
+
+td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid rgb(var(--gray-light));
+}
+
+.dark td {
+  border-bottom: 1px solid rgb(55, 65, 81); /* gray-700 */
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Alternate row colors for better readability */
+tbody tr:nth-child(even) {
+  background-color: rgba(var(--gray-light), 0.3);
+}
+
+.dark tbody tr:nth-child(even) {
+  background-color: rgba(55, 65, 81, 0.3);
+}
+
+/* -------------------
    Responsive
 ------------------- */
 @media (max-width: 720px) {
