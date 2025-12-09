@@ -193,11 +193,6 @@ table {
   margin: 1rem 0;
 }
 
-img {
-  max-width: 70%;
-  height: auto;
-}
-
 /* Override for hero images specifically */
 .hero-image {
   max-width: 100%;
