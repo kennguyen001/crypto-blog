@@ -107,7 +107,7 @@ Currently, Polymarket relies on UMA (a decentralized oracle) to resolve markets.
 3. **Liquidity Mining:** To deepen liquidity in lower-volume markets (like "Will SpaceX launch Starship in February?"), the protocol could reward market makers with tokens.
 
 <div class="img-container">
-  <img src="https://i.ibb.co/5xJHsvnT/5-poly-token-utility.jpg" alt="POLY Token Utility">
+  <img src="https://i.ibb.co/KcT91Wss/5-poly-token.jpg" alt="POLY Token Utility">
 </div>
 
 ### The "IPO" Route
