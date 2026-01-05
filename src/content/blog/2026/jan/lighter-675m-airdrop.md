@@ -2,7 +2,7 @@
 title: "Lighter's $675M Airdrop"
 description: "Lighter’s $675M airdrop proved that airdrop incentives can buy attention and volume, but it also exposed how easily mercenary capital exits when token design does not prioritize long-term user retention."
 pubDate: "Jan 4, 2026"
-heroImage: https://i.ibb.co/39WhKwJd/0-lighter-675m-airdrop.jpg
+heroImage: https://i.ibb.co/xqqmQRpy/0-lighter-675m-airdrop.jpg
 ---
 
 In a market flooded with points programs and "soon" announcements, Lighter didn’t just launch a token, they dropped a bomb. On December 30, 2025, the order book exchange distributed 250 million $LIT tokens to its earliest users, creating an instant wealth event valued at over **$675 million**.
